@@ -1,0 +1,34 @@
+h1, h2, h3, h4, p {
+  color: $text-color--base;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  color: $blue;
+}
+
+h1 {
+  @include font-size(1.6);
+}
+
+h2 {
+  @include font-size(1.4);
+}
+
+h3 {
+  @include font-size(1.2);
+}
+
+h4, p {
+  @include font-size(1);
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+small {
+  font-size: 0.8em;
+  font-weight: normal;
+}

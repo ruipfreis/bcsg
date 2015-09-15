@@ -1,0 +1,7 @@
+@mixin font-size($sizeValue) {
+  $base : 10px;
+  @if $text_size--base {
+    $base:$text_size--base;
+  }
+  font-size: ($sizeValue * $base);
+}

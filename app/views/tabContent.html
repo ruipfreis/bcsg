@@ -1,0 +1,32 @@
+<div class="tab-book-list">
+  <ul>
+    <li class="book-wrapper" ng-repeat="book in books">
+
+      <div class="img-wrapper">
+        <img src="{{book.artworkUrl100}}">
+
+        <h2>
+          {{book.formattedPrice}}
+        </h2>
+      </div>
+
+      <div class="info-wrapper">
+
+        <div class="top">
+          <h1>
+            <a href="{{book.trackViewUrl}}" target="_blank">
+
+              {{book.trackName}}
+
+            </a>
+          </h1>
+        </div>
+
+        <p ng-bind-html="book.description"></p>
+
+      </div>
+
+    </li>
+
+  </ul>
+</div>

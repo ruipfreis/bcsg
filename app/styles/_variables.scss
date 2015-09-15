@@ -1,0 +1,19 @@
+$app-min-width: 320px;
+$app-max-width: 900px;
+
+//Media Queries
+$small-media-query: "(max-width: 455px)";
+$medium-media-query: "(min-width: 456px)";
+
+//Colors
+
+$light-blue: #88BCD1;
+$blue: #3c91B6;
+
+$white: #fff;
+
+$gray: #5C5A5B;
+
+//Font
+$text_size--base: 14px;
+$text-color--base: $gray;

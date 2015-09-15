@@ -1,0 +1,11 @@
+<div class="tab-menu">
+  <ul>
+    <li ng-repeat="(key, value) in tabs" ng-click="setTab(value)">
+      <h1>{{key}}</h1>
+    </li>
+  </ul>
+</div>
+
+<div class="tab-content-wrapper">
+  <tab-content ng-repeat="tab in tabs" ng-show="isTab(tab)" data-term="{{tab}}"></tab-content>
+</div>
